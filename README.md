@@ -1,7 +1,7 @@
 # 𝘽𝙧𝙤𝙖𝙙𝙘𝙖𝙨𝙩 𝘽𝙤𝙩
 A simple Telegram bot that can broadcast messages and media to the bot subscribers using [MongoDB](https://mongodb.com).
 
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=NACBots&repo=BroadcastBot&theme=flag-india)](https://github.com/nacbots/broadcastbot&bg_color=#24292F)
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=ctrhyz&repo=BroadcastBot&theme=flag-indonesia)](https://github.com/ctrhyz/BroadcastBot)
 
 ## Features
 
@@ -15,7 +15,7 @@ A simple Telegram bot that can broadcast messages and media to the bot subscribe
  - `BOT_TOKEN` - Get from [@BotFather](https://t.me/BotFather)
  - `API_ID` - Get it from [telegram.org](https://my.telegram.org/auth)
  - `API_HASH` - Get it from [telegram.org](https://my.telegram.org/auth)
- - `AUTH_USERS` - Authorised user's ID to use [Admin Commands](https://github.com/nacbots/broadcastbot#admin-commands) {Split 💔 with a space}.
+ - `AUTH_USERS` - Authorised user's ID to use [Admin Commands](https://github.com/ctrhyz/BroadcastBot#admin-commands) {Split with a space}.
  - `DB_URL` - MongoDB Database URI get it from [mongodb.com](https://mongodb.com)
 	- This for Saving UserIDs. When you will Broadcast, bot will forward the Broadcast to DB Users.
 
@@ -55,11 +55,11 @@ banned_users - Show Banned Users
 ### Host Locally 🤕
 
 ```shell
-git clone https://github.com/nacbots/BroadcastBot
+git clone https://github.com/ctrhyz/BroadcastBot
 cd BroadcastBot
 pip3 install -r requirements.txt
 # EDIT config.py values appropriately
-python3 main.py
+python3 mainbr.py
 ```
 
 ## Support Group:

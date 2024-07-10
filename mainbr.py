@@ -50,12 +50,12 @@ async def startprivate(client, message):
             [
                 InlineKeyboardButton("Zxh's Channel", url="https://t.me/zxh_stuff"),
                 InlineKeyboardButton(
-                    "Partner", url="https://t.me/ZxhCarkecor"
+                    "Donate", url="https://saweria.co/zxhcarkecor"
                 ),
             ]
         ]
     )
-    welcomed = f"Hey <b>{message.from_user.first_name}</b>\nMade with ❤️ By @ZxhCarkecor."
+    welcomed = f"Hey <b>{message.from_user.first_name}</b>\nThis bot made with ❤️ By @ZxhCarkecor."
     await message.reply_text(welcomed, reply_markup=joinButton)
     raise StopPropagation
 
